@@ -75,6 +75,12 @@ fill(255);
 square(330,315,5);
 square(335,315,5);
 
+
+//cape
+stroke(255,0,0);
+strokeWeight(80);
+line(230,255,350,230);
+
 //hair
 noStroke();
 fill(25);
@@ -93,6 +99,7 @@ arc(200,150,150,150, 0,PI+QUARTER_PI, CHORD);
 fill(0);
 circle(170,150,25);
 stroke(0);
+strokeWeight(1);
 line(160,130,165,155);
 line(155,130,165,155);
 line(150,130,165,155);
@@ -170,4 +177,6 @@ rect(192,275,3,6);
 rect(192,280,15,2);
 rect(204,282,3,5);
 rect(193,286,13,2);
+
+
 
