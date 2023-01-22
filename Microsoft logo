@@ -1,0 +1,23 @@
+//Static drawing:1a Exercise1
+size(400,400);
+background(255);
+
+//red top left
+fill(246,83,20);
+noStroke();
+rect(20,20,100,100);
+
+//green top right
+fill(124,187,0);
+noStroke();
+rect(130,20,100,100);
+
+//blue bottom left
+fill(0,161,241);
+noStroke();
+rect(20,130,100,100);
+
+//yellow bottom right
+fill(255,187,0);
+noStroke();
+rect(130,130,100,100);
