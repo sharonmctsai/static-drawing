@@ -1,0 +1,50 @@
+//Static Drawing:1a- Challenge1
+size(600,200);
+
+noStroke();
+fill(145);
+rect(0,15,600,160);
+
+//1 circle
+strokeWeight(3);
+stroke(0);
+fill(255);
+circle(100,100,70);
+fill(0);
+triangle(90,85,90,120,120,100);
+
+//2 circle
+strokeWeight(3);
+stroke(0);
+fill(255);
+circle(200,100,70);
+fill(0);
+rect(182,82,13,35);
+rect(205,82,13,35);
+
+//3 circle
+strokeWeight(3);
+stroke(0);
+fill(255);
+circle(300,100,70);
+fill(0);
+rect(285,85,33,33);
+
+//4 circle
+strokeWeight(3);
+stroke(0);
+fill(255);
+circle(400,100,70);
+fill(0);
+triangle(400,85,400,120,430,100);
+triangle(380,85,380,118,425,100);
+
+
+//5 circle
+strokeWeight(3);
+stroke(0);
+fill(255);
+circle(500,100,70);
+fill(0);
+triangle(480,100,512,82,512,115);
+triangle(478,100,500,82,500,118);
